@@ -1,0 +1,66 @@
+/*
+Question 1
+
+Entities:
+
+Books
+Authors
+Customers
+Orders
+Genres
+Editors
+Publishers
+BookAuthors
+BookEditors
+OrderDetails
+
+Properties:
+
+Name
+Address
+Phone
+Email
+Price
+OrderDate
+ShippedDate
+Royalty
+
+*/
+
+/*
+Question 2
+Primary Keys:
+
+BookID
+AuthorID
+CustomerID
+OrderID
+GenreID
+EditorID
+PublisherID
+BookAuthorID
+BookEditorID
+OrderDetailID
+
+*/
+
+/*
+Question 3
+Table Relationships:
+
+Books, Publishers, N:1
+Books, Genres, N:1
+Customers, Orders, 1:N
+Books, Authors, N:N
+Books, Editors, N:N
+Books, BookAuthors, 1:N
+Authors, BookAuthors, 1:N
+Editors, BookEditors, 1:N
+Books, BookEditors, 1:N
+Books, Orders, N:N
+Books, OrderDetails, 1:N
+Orders, OrderDetails, 1:1
+
+*/
+
+
